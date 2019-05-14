@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+
 body {
   background-color: papayawhip;
 }
@@ -41,8 +43,14 @@ body {
   animation: fadeIn 0.5s linear;
 }
 
-.js-clock,
-.js-form,
-.js-greetings,
-.js-toDoForm {
+.center {
+  position: relative;
+  left: 460px;
+  top: 280px;
+  border: 2px solid black;
+}
+
+.js-clock {
+  font-family: "Slabo 27px", serif;
+  font-size: 50px;
 }
