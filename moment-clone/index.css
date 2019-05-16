@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+
 body {
   background-color: papayawhip;
   color: #f7f7f7;
@@ -54,6 +56,12 @@ body {
 
 .center {
   position: relative;
-  left: 400px;
-  top: 300px;
+  left: 460px;
+  top: 280px;
+  border: 2px solid black;
+}
+
+.js-clock {
+  font-family: "Slabo 27px", serif;
+  font-size: 50px;
 }
